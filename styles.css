@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f9; /* Light gray-blue background */
+    color: #333; /* Dark gray text */
+}
+
+header {
+    background: #6c757d; /* Soft gray */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    margin: 0.5rem 0;
+}
+
+#searchBar {
+    padding: 0.5rem;
+    width: 200px;
+    margin-top: 10px;
+    border: 1px solid #ced4da; /* Light gray border */
+    border-radius: 4px;
+}
+
+section {
+    padding: 1rem;
+    margin: 1rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #384B70; /* Soft gray */
+    color: white;
+}
+
+.job-list a {
+    display: block;
+    margin: 0.5rem 0;
+    color: #1676d5; /* Soft blue */
+    text-decoration: none;
+}
+
+.job-item {
+    margin-bottom: 1rem;
+}
+
+.job-item a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+@media (max-width: 600px) {
+    #searchBar {
+        width: 100%;
+    }
+}
